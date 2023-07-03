@@ -1,0 +1,14 @@
+[package]
+name = "sdk-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11.16", features = ["blocking", "json"] }
+tokio = { version = "1.27.0", features = ["full"] }
+ring = { version = "0.16.20" }
+hex = { version = "0.4.3" }
+serde_json = { version = "1.0.95" }
+serde = { version = "1.0.159", features = ["derive"] }
