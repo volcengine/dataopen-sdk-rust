@@ -17,7 +17,7 @@ fn main() {
   
     let c = client
         .request(
-            "/libra/openapi/v1/open/flight-list",
+            "/xxx/openapi/v1/open/flight-list",
             "GET",
             map,
             params,
@@ -50,7 +50,7 @@ fn main() {
   
     let c = client
         .request(
-            "/libra/openapi/v1/open/flight/version/6290880/add-test-user",
+            "/xxx/openapi/v1/open/flight/version/6290880/add-test-user",
             "POST",
             map,
             params,

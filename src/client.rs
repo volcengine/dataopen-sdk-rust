@@ -354,7 +354,7 @@ async fn test_request_get() {
 
     let c = client
         .request(
-            "/libra/openapi/v1/open/flight-list",
+            "/xxx/openapi/v1/open/flight-list",
             "GET",
             map,
             params,
@@ -388,7 +388,7 @@ async fn test_request_post() {
 
     let c = client
         .request(
-            "/libra/openapi/v1/open/flight/version/6290880/add-test-user",
+            "/xxx/openapi/v1/open/flight/version/6290880/add-test-user",
             "POST",
             map,
             params,
